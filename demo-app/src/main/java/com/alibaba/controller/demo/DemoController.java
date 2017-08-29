@@ -15,6 +15,7 @@ import java.util.List;
  * Created by Administrator on 2017/8/25.
  */
 @Controller
+@RequestMapping ( value = "/admin")
 public class DemoController {
 
     @Autowired
