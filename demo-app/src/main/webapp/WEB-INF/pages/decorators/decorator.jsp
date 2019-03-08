@@ -62,6 +62,7 @@
     </style>
 </head>
 <body>
+<script src="/ssm/static/js/jquery-1.8.2.min.js"></script>
 <!--头部  -->
 <div align="center" style="height: 67px;background-color: #343f4b;">
     <div class="header-left">
@@ -80,6 +81,8 @@
             <li><a href="javascript:void(0)">采购计划监督</a></li>
             <li><a href="javascript:void(0)">关联采购计划</a></li>
             <li><a href="javascript:void(0)">用户权限设置</a></li>
+            <li><a href="/ssm/admin/ajaxUpload.htm">上传测试</a></li>
+            <li><a href="/ssm/admin/lottery.htm">抽奖</a></li>
         </ul>
     </div>
 </div>

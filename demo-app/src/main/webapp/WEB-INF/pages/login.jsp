@@ -24,7 +24,7 @@
 <body>
 <div class="page-container">
     <h1>平台登录</h1>
-    <form action="<c:url value='/doLogin.htm'/>" method="post">
+    <form action="<c:url value='../doLogin.htm'/>" method="post">
         <input type="text" name="loginName" class="loginName" placeholder="登录名"/>
         <input type="password" name="password" class="password" placeholder="密码"/>
         <button type="submit">登录</button>

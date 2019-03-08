@@ -246,6 +246,17 @@
             <artifactId>sitemesh</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.0.2</version>
+        </dependency>
     </dependencies>
 
 

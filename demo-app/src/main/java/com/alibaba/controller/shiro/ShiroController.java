@@ -44,6 +44,7 @@ public class ShiroController {
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
+            subject.getSession().setTimeout(1600000L);
             if (subject.isAuthenticated()) {
                 request.getSession().setAttribute("user",user);
                 SavedRequest savedRequest = WebUtils.getSavedRequest(request);
